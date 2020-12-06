@@ -2,15 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Fixed headers - fullPage.js</title>
+	<title>THANEX INTERNATIONAL</title>
 	<meta name="author" content="Alvaro Trigo Lopez" />
 	<meta name="description" content="fullPage fixed header and footer." />
 	<meta name="keywords"  content="fullpage,jquery,demo,screen,fixed, header,footer, absolute, positioned,css" />
 	<meta name="Resource-type" content="Document" />
 
 
-	<link rel="stylesheet" type="text/css" href="../dist/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="full/dist/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
 
 
