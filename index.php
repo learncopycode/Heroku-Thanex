@@ -154,7 +154,7 @@
 					</div>
 
 					<div id="A_licensed_manpower_agency_in_">
-								<span>“A licensed manpower agency in Bangladesh:<br>helping migrant workers add value to your company”</span>
+								<span>A licensed manpower agency in Bangladesh:<br>helping migrant workers add value to your company</span>
 							</div>
 					
 					<div class="">
@@ -453,44 +453,7 @@
 			
 			</div>
 
-			<div class="mySection" id="section3">
-
-
-				<div class="white">
-								<div id="BG_2880" class="background bgg">
-								
-								</div>
-				</div>
-
-				<div class="followMeBar p33">
 			
-							<div class="text">
-
-										
-							<span>Bangladeshi Expatriate<br>Workers: On Statistics</span><br>
-
-
-							</div>
-						</div>
-
-				<div class="p3">
-						
-
-						<div class="flexo">
-
-							<div class="flexo-item"><img src="includess/stat1.svg" alt=""></div>
-
-							<div class="flexo-item"><img src="includess/stat2.svg" alt=""></div>
-
-
-
-						</div>
-
-				</div>
-				
-		
-		
-			</div>
 	
 			<div class="mySection" id="section4">
 					<div id="go2"></div>

@@ -1,9 +1,16 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 .body, body, *, tspan, h1, p{
 
     font-family:
     
     "Roboto Condense", sans-serif;
 }
+
 
 #p21 p {
     font-size: 30.99;
@@ -794,13 +801,11 @@ body, span, tspan, h1 {
 }
     
 
-
-.btraclogo
-{
-    width: 258.906px;
+.btraclogo {
+    /* width: 258.906px; */
     position: relative;
-    right:0;
-    transform-origin:right;
+    right: 0;
+    transform-origin: right;
 }
 .btraclogo3{
     width: 1036.906px;
@@ -1112,6 +1117,13 @@ img.skill2 {
     #p11 {
         position: relative;
         top: 86.4px;
+    }
+    .btraclogo
+    {
+
+        position: relative;
+        right:0;
+        transform-origin:right;
     }
 
     .btraclogo2 {
