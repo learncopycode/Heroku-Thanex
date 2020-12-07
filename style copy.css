@@ -2431,6 +2431,9 @@ div#p20 {
 
 
 @media only screen and (max-width:1099px){
+    .flei.phoneem {
+        width: none;
+    }
     
     
 
@@ -2439,7 +2442,7 @@ div#p20 {
         background-image: url(A.png);
         height: 80vh;
         width: 100%;
-        top: 130px;
+        top: 104px;
         position: relative;
         background-size: cover;
         height: 100vh;
