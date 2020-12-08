@@ -3,7 +3,7 @@
 
 <head>
 
-
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>THANEX INTERNATIONAL</title>
 	<meta name="author" content="Alvaro Trigo Lopez" />
@@ -104,7 +104,7 @@
 
 
 
-<div id="header">
+<div >
 	<nav>
         <div class="dropdown">
           <div class="logo">
@@ -118,7 +118,7 @@
             <button><img class="menu" src="ASSET/menu.png" alt=""></button>
             <ul>
               <li data-menuanchor="two"><a href="#two">BANGLADESHI EXPATS ON STATS</a></li>
-              <li data-menuanchor="five"><a href="#five">SOLUTIONS WE OFFER</a></li>
+              <li data-menuanchor="four"><a href="#five">SOLUTIONS WE OFFER</a></li>
               <li data-menuanchor="six"><a href="#six">EMPLOYER'S JOURNEY MAP</a></li>
               <li data-menuanchor="seven"><a href="#seven">EMPLOYEES' JOURNEY MAP</a></li>
               <li data-menuanchor="eight"><a href="#eight">THANEX JAPANESE SCHOOL</a></li>
@@ -144,7 +144,7 @@
 
 
 
-			<div class="mySection active" id="section0">
+			<div class="mySection  " id="section0">
 
 
 				<div class="white">
@@ -187,7 +187,7 @@
 					
 			</div>
 
-			<div class="mySection" id="section1">
+			<div class="mySection " id="section1">
 				<div class="white">
 						<div id="BG_2880" class="background bgg">
 						
@@ -198,8 +198,8 @@
 							<div id="go1"></div>
 				
 			
-							<div id="p1">
-										<div class="followMeBar">
+							<div id="">
+										<div class="followMeBar b1">
 											<div class="text">
 
 													
@@ -268,7 +268,7 @@
 
 			</div>
 				
-			<div class="mySection" id="section2">
+			<div class="mySection " id="section2">
 
 
 							<div class="white">
@@ -277,8 +277,8 @@
 								</div>
 							</div>
 				
-							<div id="p2">
-									<div class="followMeBar">
+							<div id="hee">
+									<div class="followMeBar b2">
 						
 										<div class="text">
 
@@ -462,8 +462,8 @@
 										
 										</div>
 									</div>
-					<div id="p4">
-								<div class="followMeBar">  
+					<div id="cont4">
+								<div class="followMeBar b3">  
 								<div class="text a">
 
 											
@@ -554,8 +554,8 @@
 								</div>
 								<div id="p3">
 
-            							<div  class="followMeBar">
-									<div class="text">
+            							<div  class="followMeBar b33">
+									<div class="text ttee">
 
 												
 									<span>EMPLOYER'S JOURNEY MAP
@@ -569,7 +569,7 @@
 								</span>
 								</p>
 
-								<div class="midflex">
+								<div class="midflex2">
 								<div class="mySlide" id="slide1">
 									<div >
 
@@ -614,7 +614,7 @@
 							</div>
 					</div>
 
-					<div id="p40">
+					<div id="">
 						<div class="followMeBar poltu">
 							<div  class="text">
 							<span>EMPLOYEES' JOURNEY MAP</span><br>
@@ -670,7 +670,7 @@
 								</div>
 								<div id="p10">
 									
-													<div class="followMeBar">
+													<div class="followMeBar bk">
 													
 														<div class="text">
 
@@ -781,8 +781,8 @@
 									</div>
 
 
-									<div id="p11">								
-										<div class="followMeBar">
+									<div id="">								
+										<div class="followMeBar b0">
 												<div class="text a">
 
 																
@@ -848,8 +848,8 @@
 
 
 
-								<div id="p20">
-												<div class="followMeBar">
+								<div id="pp">
+												<div class="followMeBar b10">
 												<div class="text">
 
 																		
@@ -910,16 +910,6 @@
 
 												</div>
 
-
-
-												<br>
-												<br>
-												<br>
-												<br>
-												<br>
-												<br>
-												<br>
-
 												</div>
 			</div>
 			
@@ -931,7 +921,7 @@
 									</div>
 								</div>
 								<div id="p21">   
-												<div class="followMeBar">
+												<div class="followMeBar b21">
 															<div class="text">
 																<span>CONTACT US</span><br>
 															</div>
@@ -1032,7 +1022,7 @@ $("#myIframe").on("load", function() {
 </script>
 
 
-
+<script type="text/javascript" src="full/vendors/scrolloverflow.js"></script>
 
 <script type="text/javascript" src="full/dist/fullpage.js"></script>
 <script type="text/javascript" src="examples.js"></script>
@@ -1041,9 +1031,12 @@ $("#myIframe").on("load", function() {
 
 $('#fullpage').fullpage({
     sectionsColor: ['white', 'white', 'white','white','white','white','white','white','white','white'],
-	anchors: ['one', 'two', 'three','four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven'],
+	anchors: ['one', 'two','four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven'],
     animateAnchor: false,
 	normalScrollElements: '.scrollable-element, .rollitflex',
+	autoScroll:false,	
+
+	responsiveWidth:1000,
 
 
  
@@ -1053,6 +1046,8 @@ $('#fullpage').fullpage({
 	scrollOverflow:true,
     css3: true,
 	slideSelector: '.mySlide',
+
+
 
 	sectionSelector:'.mySection',
 	
