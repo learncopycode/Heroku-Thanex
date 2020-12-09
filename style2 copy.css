@@ -100,7 +100,7 @@
 
 .page-2 {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   top: 89px;
   width: 100%;
 }
@@ -253,11 +253,6 @@ p {
   position: relative;
 }
     
-    #carouselExampleControls3{
-    
-      width:90%;
-      margin:auto;
-    }
     .im{width: 80%;
         position: relative;}
 
@@ -286,7 +281,7 @@ display: none;}
   position: relative;
   top: 100px;
   height: 720px;
-  overflow: hidden;
+
 }
 
 .mapinfo2>svg {
@@ -329,7 +324,7 @@ display: none;}
     z-index: 3;
     top: 30px;
     color: #fff;
-    width: 86%;
+    width: 87.9%;
     /* height: 70px; */
     border-radius: 0px 100px 100px 0px;
     height: 200px;
@@ -580,7 +575,7 @@ display: none;}
 
   .page-2 {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     top: 89px;
     width: 100%;
 }

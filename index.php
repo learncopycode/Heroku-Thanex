@@ -39,7 +39,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<style>
-
+		
 	/* Style for our header texts
 	* --------------------------------------- */
 	h1{
@@ -127,17 +127,19 @@
                <li data-menuanchor="eleven" ><a href="#eleven">CONTACT US</a></li>
             </ul>
           </div>
-</nav>
-
+	</nav>
+	
 	
 </div>
 
+<div id="sparkLineContainer"></div>
+
 
 
 
 	
 
-		<div id="fullpage">
+<div id="fullpage">
 
 
 
@@ -146,70 +148,70 @@
 
 			<div class="mySection  " id="section0">
 
-
-				<div class="white">
-					<div id="BG_2880" class="background bgg">
-					   
-					</div>
-					</div>
-
-					<div id="A_licensed_manpower_agency_in_">
-								<span>A licensed manpower agency in Bangladesh:<br>helping migrant workers add value to your company</span>
+					<div id="p111">
+						<div class="white">
+							<div id="BG_2880" class="background bgg">
+							
 							</div>
-					
-					<div class="">
-					
-					<div class="heightmask">
-
-					
-					  <div class="scrollable-elements imagediv">
-					  </div>
-					  
-					</div>
-					
-					</div>
-
-
-					<div class="infocommune">
-
-						<div class="flei phoneem">
-						  <img src="includess/phoneem.svg" alt="">
-					
-					
 						</div>
-					
-						<div class="flei btraclogo">
-						   <img src="includess/brac.svg" alt="">
-					
+
+						<div id="A_licensed_manpower_agency_in_">
+										<span>A licensed manpower agency in Bangladesh:<br>helping migrant workers add value to your company</span>
 						</div>
-					  
-					</div>
-					
+							
+						<div class="">
+							
+							<div class="heightmask">
+
+							
+							<div class="scrollable-elements imagediv">
+							</div>
+							
+							</div>
+							
+						</div>
+
+
+						<div class="infocommune">
+
+								<div class="flei phoneem">
+								<img src="includess/phoneem.svg" alt="">
+							
+							
+								</div>
+							
+								<div class="flei btraclogo">
+								<img src="includess/brac.svg" alt="">
+							
+								</div>
+							
+						</div>
+				</div>	
+							
 			</div>
 
 			<div class="mySection " id="section1">
-				<div class="white">
-						<div id="BG_2880" class="background bgg">
+
+				<div id="p222">
+							<div class="white">
+								<div id="BG_2880" class="background bgg">
 						
-						</div>
-						</div>
+								</div>
+							</div>
 
 						<!--ID111-->
-							<div id="go1"></div>
-				
-			
-							<div id="">
-										<div class="followMeBar b1">
-											<div class="text">
+					<div id="go1"></div>
+							<div class="followMeBar b1">
+										<div class="text">
 
 													
 												<span>Bangladeshi Expatriate<br>Workers: On Statistics</span><br>
 												
 												
-											</div>
-
-
 										</div>
+
+
+							</div>
 
 
 													<div class="page-1">
@@ -262,7 +264,7 @@
 													</div>
 
 
-							</div>
+					</div>
 
 
 
@@ -270,7 +272,7 @@
 				
 			<div class="mySection " id="section2">
 
-
+				<div class="pageit">
 							<div class="white">
 								<div id="BG_2880" class="background bgg">
 								
@@ -289,12 +291,16 @@
 										</div>
 									</div>
 
-									<div class="page-2">
+									
 
 
 										<div class="mapimage">
 
-											<div class="mapinfo 1">
+											
+											
+										</div>
+
+										<div class="mapinfo 1">
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 388 679.889">
 													<defs>
 														<linearGradient id="linear-gradient" x1="1.401" y1="0.444" x2="0.267" y2="0.514" gradientUnits="objectBoundingBox">
@@ -367,8 +373,6 @@
 													</svg>
 
 											</div>
-											
-										</div>
 
 										<div class="mapinfo2">
 										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 388 679.889">
@@ -448,7 +452,7 @@
 									
 
 									</div>
-  							</div>
+  				</div>
 
 			
 			</div>
@@ -456,13 +460,13 @@
 			
 	
 			<div class="mySection" id="section4">
-					<div id="go2"></div>
+			<div id="cont4">
 					<div class="white">
 										<div id="BG_2880" class="background bgg">
 										
 										</div>
 									</div>
-					<div id="cont4">
+					
 								<div class="followMeBar b3">  
 								<div class="text a">
 
@@ -542,10 +546,11 @@
 								<br>
 								<br>
 								</div>
-			
+				
 			</div>
 
 			<div class="mySection" id="section5">
+				<div class="go555">
 
 								<div class="white">
 									<div id="BG_2880" class="background bgg">
@@ -600,6 +605,8 @@
 						
 								
 
+
+					</div>
 
 					</div>
 			</div>
@@ -773,7 +780,7 @@
 			</div>
 
 			<div class="mySection" id="section8">
-
+						<div id="p5555">		
 									<div class="white">
 										<div id="BG_2880" class="background bgg">
 										
@@ -781,7 +788,7 @@
 									</div>
 
 
-									<div id="">								
+														
 										<div class="followMeBar b0">
 												<div class="text a">
 
@@ -791,42 +798,42 @@
 
 											</div>
 										</div>
-										<div class="fp-auto-height">
-										<div class="rollitflex " id="scro">
+										<div class="">
+										<div class="rollitflex2 " id="scro">
 
-													<div class="la1 flex-item2">
+													<div class="la1 flex-item3">
 													<img src="includess/la1.svg" alt="">
 													</div>
 
-													<div class="la2 flex-item2">
+													<div class="la2 flex-item3">
 													<img src="includess/la2.svg" alt="">
 													</div>
 
-													<div class="la3 flex-item2">
+													<div class="la3 flex-item3">
 													<img src="includess/la3.svg" alt="">
 													</div>
 
-													<div class="la4 flex-item2">
+													<div class="la4 flex-item3">
 													<img src="includess/la4.svg" alt="">
 													</div>
 
-													<div class="la5 flex-item2">
+													<div class="la5 flex-item3">
 													<img src="includess/la5.svg" alt="">
 
 													</div>
 
-													<div id="sixth" class="la6 flex-item2">
+													<div id="sixth" class="la6 flex-item3">
 													<img src="includess/la6.svg" alt="">
 													</div>
 
-													<div class="la7 flex-item2">
+													<div class="la7 flex-item3">
 													<img src="includess/la7.svg" alt="">
 													</div>
 
-													<div class="la8 flex-item2">
+													<div class="la8 flex-item3">
 													<img src="includess/la8.svg" alt="">
 													</div>
-													<div class="la9 flex-item2">
+													<div class="la9 flex-item3">
 													<img src="includess/la9.svg" alt="">
 													</div>
 										</div>
@@ -839,7 +846,7 @@
 			</div>
 
 			<div class="mySection" id="section9">
-
+				<div class="hodl">
 								<div class="white">
 									<div id="BG_2880" class="background bgg">
 									
@@ -912,9 +919,11 @@
 
 												</div>
 			</div>
+		
+		</div>
 			
 			<div class="mySection" id="section10">
-
+					<div class="sec10">
 								<div class="white">
 									<div id="BG_2880" class="background bgg">
 									
@@ -1005,9 +1014,18 @@
 	 
 	</div>
 
+	</div>
+
 </div>
 
 <script>
+
+$('#carouselExampleControls3').carousel();
+
+</script>
+
+<script>
+
 function myFunction() {
   alert("Hey there! your query has been submitted. We will contact you shortly");
 }
@@ -1021,9 +1039,9 @@ $("#myIframe").on("load", function() {
 });
 </script>
 
-
 <script type="text/javascript" src="full/vendors/scrolloverflow.js"></script>
 
+<script type="text/javascript" src="full/dist/fullpage.js"></script>
 <script type="text/javascript" src="full/dist/fullpage.js"></script>
 <script type="text/javascript" src="examples.js"></script>
 
@@ -1033,23 +1051,43 @@ $('#fullpage').fullpage({
     sectionsColor: ['white', 'white', 'white','white','white','white','white','white','white','white'],
 	anchors: ['one', 'two','four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven'],
     animateAnchor: false,
-	normalScrollElements: '.scrollable-element, .rollitflex',
-	autoScroll:false,	
+	
 
-	responsiveWidth:1000,
+
+
 
 
  
     slidesNavigation: true,
 	slidesNavPosition: 'bottom',
-	
-	scrollOverflow:true,
-    css3: true,
+
+    css3: false,
 	slideSelector: '.mySlide',
+
+	scrollingSpeed: 700,
+
+	autoScrolling:true,
+	scrollOverflow: true,
+
+
+
+
+	scrollOverflowOptions:{
+    keyBindings: {
+      pageUp: 33,
+      pageDown: 34
+    }
+  	},
+
+  
+	
+
+  
 
 
 
 	sectionSelector:'.mySection',
+	
 	
     afterRender: function () {
         //on page load, start the slideshow
@@ -1058,16 +1096,125 @@ $('#fullpage').fullpage({
 			}, 100000);
 			
 			
-    },
+	},
+
+
+
+	afterLoad:function(origin,destination,direction){
+		if (destination.index == '3') {
+		console.log("is3");
+		$("#sparkLineContainer").html('<div class="followMeBar b4"><div class="text a"><span>RECRUITMENT SOLUTIONS WE OFFER</span><br></div></div>');
+
+		
+	
+
+		
+
+		$(".b4").css("position", "fixed");
+
+		if ($(window).width() > 1900) {
+				
+				}
+				else {
+				
+				}
+	
+		
+	
+		
+		}
+		
+		if (destination.index == '7') {
+		console.log("is3");
+
+
+		if ($(window).width() > 850) {
+			$("#sparkLineContainer").html('<div class="followMeBar b110"><div class="text a"><span>WHY THANEX: WHAT SETS US APART?</span><br></div></div>');
+										$(".b110").css("position", "fixed");
+
+											if ($(window).width() > 1900) {
+										
+													}
+													else {
+													
+													}
+
+
+
+
+											}
+				}
+				else {
+				}
+		
+	},
+	
+	
   
 
-    onLeave: function (index, direction) {
-        //after leaving section 1 (home) and going anywhere else, whether scrolling down to next section or clicking a nav link, this SHOULD stop the slideshow and allow you to navigate the site...but it does not
-        if (index == '1') {
+    onLeave: function (origin, destination, direction)  {
+    const scroll = origin.item.querySelector('.fp-scrollable');
+    if (scroll) {
+      const cannotPrev = origin.index > destination.index && scroll.fp_iscrollInstance.y < 0;
+      const cannotNext = origin.index < destination.index && scroll.fp_iscrollInstance.y > scroll.fp_iscrollInstance.maxScrollY
+      if (cannotPrev || cannotNext) {
+        return false;
+      }
+	}
+	
+	if (origin.index == '1' ) {
             console.log('on leaving the slideshow/section1');
             clearInterval(slideTimeout);
-        }
-    }
+		}
+
+
+		if (origin.index == '3' && destination.index=='2') {
+			setTimeout(()=>{$("#sparkLineContainer").html(' ');},0)
+
+			$(".b4").css("position", "relative");
+			setTimeout(()=>{$(".b4").css("display", "none");},400)
+			
+			
+	
+
+			$(".b4").css("position", "relative");
+		}
+		
+
+		if (origin.index == '3' && destination.index=='4') {
+			setTimeout(()=>{$("#sparkLineContainer").html(' ');},400)
+
+			$(".b4").css("position", "relative");
+			
+	
+
+			$(".b4").css("position", "relative");
+		}
+
+		if (origin.index == '7' && destination.index=='6') {
+			$("#sparkLineContainer").html(' ');
+
+			$(".b110").css("position", "relative");
+			
+	
+
+			$(".b110").css("position", "relative");
+		}
+
+		if (origin.index == '7' && destination.index=='8') {
+			setTimeout(()=>{$("#sparkLineContainer").html(' ');},400)
+
+			$(".b110").css("position", "relative");
+			
+	
+
+			$(".110").css("position", "relative");
+		}
+
+		
+
+
+  }
 });
 
 

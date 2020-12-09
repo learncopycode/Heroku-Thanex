@@ -12,6 +12,90 @@
     "Roboto Condensed", sans-serif;
 }
 
+.kokoflex .fp-scroller {
+    height: 120vh;
+}
+
+.followMeBar.b110 {
+    top:110px;
+}
+.iScrollIndicator {
+    display: none!important;
+}
+.hodl{height: 100vh;}
+#p222{ height: 100vh;}
+
+#go555{ height: 100vh;}
+
+#p111{ height: 100vh;}
+
+#section0{height: 100vh;}
+
+.pageit{height: 100vh;}
+
+#p5555{height: 140vh ;  }
+
+.sec10{height: 100vh;}
+
+
+
+
+
+
+.carousel-fade .carousel-inner .carousel-item {
+    opacity: 0;
+    transition-property: opacity;
+  }
+  
+  .carousel-fade .carousel-inner .active {
+    opacity: 1;
+  }
+  
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .carousel-fade .carousel-inner .next.left,
+  .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+  }
+  
+  .carousel-fade .carousel-control {
+    z-index: 2;
+  }
+  
+  /*
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  now override the 3.3 new styles for modern browsers & apply opacity
+  */
+  @media all and (transform-3d), (-webkit-transform-3d) {
+      .carousel-fade .carousel-inner > .item.next,
+      .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+      }
+      .carousel-fade .carousel-inner > .item.prev,
+      .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+      }
+      .carousel-fade .carousel-inner > .item.next.left,
+      .carousel-fade .carousel-inner > .item.prev.right,
+      .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+      }
+  }
+  
+ 
+
+
 
 
 
@@ -714,7 +798,7 @@ body, span, tspan, h1 {
     flex-flow: row wrap;
     margin: auto;
     position: relative;
-    height: 860px;
+
     overflow: scroll;
 
     overflow: -moz-scrollbars-none;
@@ -722,12 +806,36 @@ body, span, tspan, h1 {
     -ms-overflow-style: none;
 }
 
+.rollitflex2 {
+    top: 129px;
+    display: flex;
+    width: 80%;
+    align-content: top;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: auto;
+    position: relative;
+    /* height: 1475px; */
+    overflow: scroll;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+
+
+#section0 .fp-scroller {
+    overflow: hidden;
+}
+
 .rollitflex::-webkit-scrollbar {
     width: 0px!important;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
-
+.flex-item3>img {
+    width: 300px;
+    z-index: 10;
+}
 
 
 .flex-item2>img {
@@ -844,7 +952,8 @@ body, span, tspan, h1 {
     z-index: 0;
     /* mix-blend-mode: luminosity; */
     height: 100%;
-    background: url('BG@2x.jpg') top right / cover;
+    background: url('BG@2x.jpg') top right / contain;
+
     background-position: fixed;
     position: relative;
 }
@@ -1132,7 +1241,7 @@ img.skill2 {
         flex-flow: row wrap;
         margin: auto;
         position: relative;
-        height: 650PX;
+  
         overflow: scroll;
     }
     .infocommune {  
@@ -1277,7 +1386,215 @@ img.skill2 {
     height: 1000.3px;
 }
 
-#A_licensed_manpower_agency_in_ {
+
+    
+}
+
+
+@media only screen and (max-width:2157px){
+
+    
+
+    
+
+    .col-xsm-12>img {
+        left: -23%;
+        position: relative;
+        top: 38.9%;
+        margin-top: -20%;
+    }
+
+    .conflexitem>p {
+        font-size: 25.2px;
+        text-align: justify;
+        left: 2.4%;
+        top: 70px;
+        position: relative;
+    }
+
+    form {
+        top: 20px;
+        width: 1023px;
+    }
+
+    .lefts img {
+        width: 130%;
+        top: 10px;
+        position: relative;
+    }
+
+    .lefts {
+        width: 21%;
+        /* height: 100%; */
+        display: inline-block;
+        left: -10px;
+        position: relative;
+        /* top: inherit; */
+        top: -260px;
+    }
+
+    .rights {
+        display: inline-block;
+        width: 70%;
+        top: -90px;
+        position: relative;
+        left: 13%;
+    }
+
+    .lg {
+        /* transform: scale(0.9); */
+        top: -190px;
+        position: relative;
+        display: inline;
+    }
+    .iconkoko {
+        WIDTH: 400PX;
+    }
+    .kokocover {
+        position: relative;
+        top: 100px;
+        height: 720px;
+        left: 30px;
+
+    }
+
+    .carouselExampleControls3 {
+        width: 80%!important;
+    }
+    #p3 p {
+        top: 140px;
+        left: 10px;
+        font-size: 40.7px;
+    }
+
+    #cont4 {
+        height: 1760px;
+    }
+ 
+    .rollitflex {
+        top: 120px;
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        flex-flow: row wrap;
+        margin: auto;
+        position: relative;
+        overflow: scroll;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+    }
+    .mapimage {
+        height: 60vh;
+    }
+
+    .mapinfo {
+        position: absolute;
+        right: 15.5%;
+        width: 14.5vw;
+        top: 111.2px;
+    }
+    #p11 {
+        position: relative;
+        top: 86.4px;
+    }
+    .btraclogo
+    {
+
+        position: relative;
+        right:0;
+        transform-origin:right;
+    }
+
+    .btraclogo2 {
+        width: 1326.906px!important;
+        position: relative;
+        right: 0;
+        transform-origin: right;
+    }
+
+    .btraclogo3 {
+        width: 1036.906px;
+        position: relative;
+        right: 0;
+        transform-origin: right;
+    }
+    form {
+        transform: scale(0.8);
+        top: 40px;
+        left: 47px;
+    }
+    #p10 {
+        position: relative;
+
+    }
+
+
+        #Group_271>img {
+            width: 110%;
+            text-outline: 0;top:-13px;
+            position: relative;
+        }
+    
+    .dropdown {
+    height: 10vh;
+    width: 74%;
+    margin: auto;
+    display: flex;
+    top: 0px;
+    position: relative;
+    justify-content: flex-end;
+    align-items: left;
+}
+    nav {
+    z-index: 100;
+    height: 167px;
+    padding: 1.7%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    /* border-bottom: 100px; */
+}
+    #myCarousel {
+        transform: scale(1.7);
+        position: relative;
+        top: 280px;
+        margin-bottom: 230px;
+    }
+    #myCarousel2 {
+        transform: scale(1.7);
+        position: relative;
+        top: 280px;
+        margin-bottom: 230px;
+    }
+
+    .infocommune {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 72%;
+    padding: 0;
+    left: -1%;
+    margin: auto;
+    list-style: none;
+    top: 19px;
+    position: relative;
+}
+    .projects ul, .products ul {
+      
+        left: 0px;
+        width: 290px;
+    }
+    .flex-item2>img {
+        width: 381px;
+        z-index: 10;
+    }
+
+
+    #A_licensed_manpower_agency_in_ {
     filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
     left: 334px;
     top: 874px;
@@ -1293,12 +1610,9 @@ img.skill2 {
     color: rgba(255,255,255,1);
     text-transform: uppercase;
     z-index: 100;
-}
-    
-}
+    }
 
 
-@media only screen and (max-width:2157px){
 
 
     #myCarousel {
@@ -1319,11 +1633,19 @@ img.skill2 {
 }
 
   @media only screen and (max-width:1999px){
+
+
+    
+    .lefts img {
+        width: 147.1%;
+        top: 5px;
+        position: relative;
+    }
     .lg {
-    top: -90px;
-    position: relative;
-    display: inline;
-}
+        top: -190px;
+        position: relative;
+        display: inline;
+    }
 
 .conflexitem>p {
     font-size: 25px;
@@ -1332,9 +1654,11 @@ img.skill2 {
     top: 70px;
     position: relative;
 }
-    #p3 p {
-        font-size: 38.7px;
-    }
+#p3 p {
+    font-size: 38.7px;
+    top: 120px;
+    position: relative;
+}
 
     .imge3 {
     /* margin: auto; */
@@ -1430,14 +1754,13 @@ img.skill2 {
         position: relative;
     }
 
+   
 
-
-      
     .mapinfo {
         position: absolute;
         right: 11%;
         width: 18.1vw;
-        top: 104.2px;
+        top: 434.2px;
     }
     img.skill {    height: 100%;
         width: 100%;
@@ -1447,18 +1770,23 @@ img.skill2 {
         position: relative;
     }
     img.skill2 {
-    width: 100%;
-    max-width: 691px;
-    top: 0;
-    /* padding: 50px 70px 0 70px; */
-    position: relative;
-  
-}
+        width: 100%;
+        max-width: 551px;
+        top: 0;
+        /* padding: 50px 70px 0 70px; */
+        position: relative;
+    }
     #myCarousel {
         transform: scale(1.4);
         position: relative;
         top: 280px;
         margin-bottom: 200px;
+    }
+
+    .w-100 {
+        /* width: 100%!important; */
+        height: 420px;
+        width: 960px!important;
     }
     #myCarousel2 {
         transform: scale(1.4);
@@ -1476,7 +1804,7 @@ img.skill2 {
     z-index: 0;
     /* mix-blend-mode: luminosity; */
     height: 100%;
-    background: url(BG.jpg) top right / cover;
+    background: url(BG.jpg) top right / contain;
     background-position: fixed;
     position: relative;
 }
@@ -1562,6 +1890,42 @@ height: 764.5px;
 
 @media only screen and (max-width:1699px){
 
+    #cont4 {
+        height: 1380px;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        position: relative!important;
+        top: -23.9%;
+        bottom: 0;
+        display: -ms-flexbox;
+        display: inline!important;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        opacity: 1!important;
+    }
+
+    
+    img.d-block.w-100 {
+        height: 360px;
+        width: 790px!important;
+    }
+
+    .lefts {
+        width: 21%;
+        /* height: 100%; */
+        display: inline-block;
+        left: -10px;
+        position: relative;
+        /* top: inherit; */
+        top: -300px;
+    }
+
     .flexit {
         top: 0;
         position: relative;
@@ -1583,12 +1947,14 @@ height: 764.5px;
         top: -6px;
     }
     form {
-        width: 720px;
-        left: 50px;
+        width: 938px;
+        top: 10px;
+        left: -17px;
+        transform: scale(0.7);
     }
 
     .lefts img {
-        width: 190%;
+        width: 150%;
     }
   .btraclogo {
     width: 258.906px;
@@ -1623,7 +1989,7 @@ div#p40 {
     }
 
     .conflexitem>p {
-        font-size: 21px;
+        font-size: 20.2px;
         text-align: justify;
         left: 2.4%;
         position: relative;
@@ -1663,14 +2029,18 @@ div#p40 {
     .kokoflex {
         display: grid;
         grid-template-columns: 75% 25%;
-        width: 80.4%;
+        width: 83.4%;
         margin: auto;
-        top: -70px;
+        top: -50px;
         position: relative;
     }
     
     .im {
         width: 50.2%;
+    }
+
+    .carousel-control-next {
+        right: -57.2%!important;
     }
 
 
@@ -1730,12 +2100,11 @@ div#p40 {
         top: 0px;
         position: relative;
     }
-
     .mapinfo {
         position: absolute;
-        right: 15.5%;
-        width: 15.5vw;
-        top: 95.4px;
+        right: 21.5%;
+        width: 15vw;
+        top: 287.4px;
     }
     .p3 {
         margin-top: 50px;
@@ -1769,8 +2138,9 @@ div#p40 {
     }
     
 
-  .mapimage {
-    height: 570.3px;
+    .mapimage {
+        height: 540.3px;
+        top: 100px;
     }
   .dropdown {
         height: 10vh;
@@ -1781,23 +2151,12 @@ div#p40 {
         justify-content: flex-end;
         align-items: left;
     }
-    #A_licensed_manpower_agency_in_ {
-        Z-INDEX: 1000;
-        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-        left: 13.5%;
-        top: 489px;
-        position: absolute;
-        overflow: visible;
-        width: 1123px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: "Roboto Condensed", sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        line-height: 30px;
-        font-size: 33px;
-        color: rgba(255,255,255,1);
-        text-transform: uppercase;
+   
+
+    .lg {
+        top: -240px;
+        position: relative;
+        display: inline;
     }
 
 
@@ -1851,7 +2210,7 @@ img.skill {    height: 100%;
         justify-content: center;
         flex-flow: row wrap;
         margin: auto;
-        height: 530px;
+     
     }
 
 
@@ -1947,7 +2306,8 @@ img.skill {    height: 100%;
         flex-flow: row wrap;
         margin: auto;
         position: relative;
-        height: 430px;
+   
+        
         overflow: scroll;
     }
   .flex-item2>img {
@@ -2072,10 +2432,95 @@ width: 210px;
 
 @media only screen and (max-width:1399px){
 
+    
+
+    #A_licensed_manpower_agency_in_ {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+        left: 178px;
+        top: 506px;
+        position: absolute;
+        overflow: visible;
+        width: 982px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 30.8px;
+        line-height: 1;
+        color: rgba(255,255,255,1);
+        text-transform: uppercase;
+        z-index: 100;
+    }
+
+    .rights {
+        display: inline-block;
+        width: 70%;
+        top: -90px;
+        position: relative;
+        left: 14.7%;
+    }
+
+    .lefts {
+        width: 14.8%;
+        /* height: 100%; */
+        display: inline-block;
+        left: -10px;
+        position: relative;
+        /* top: inherit; */
+        top: -300px;
+    }
+    .lg {
+        top: -228px;
+        position: relative;
+        left: 10px;
+        display: inline;
+    }
+
+    .conflexitem>p {
+        font-size: 17.5px;
+        text-align: justify;
+        left: 2.4%;
+        position: relative;
+    }
+
+    .col-xsm-12>img {
+        left: -23%;
+        position: relative;
+        top: 48.9%;
+        margin-top: -20%;
+    }
+
+    .kokocover {
+        position: relative;
+        top: 130px;
+        height: 720px;
+        left: 30px;
+    }
+
+    .kokoflex {
+        display: grid;
+        grid-template-columns: 75% 25%;
+        width: 83.4%;
+        height: 670px;
+        margin: auto;
+        top: -50px;
+        position: relative;
+    }
+
+    .carousel-control-prev {
+        left: -8.2%!important;
+    }
+
     .page-10 {
         padding-top: 0;
         top: -30px;
         position: relative;
+        top: 20px;
+    }
+
+    img.d-block.w-100 {
+        height: 330px;
+        width: 670px!important;
     }
 
     .imge2 {
@@ -2153,21 +2598,34 @@ width: 210px;
         margin: auto;
         list-style: none;
     }
-   
-
-        .mapimage {
-    
-    height: 580.3px;
-    
+    .mapinfo {
+        position: absolute;
+        right: 25.6%;
+        width: 15vw;
+        top: 250px;
     }
 
-    img.skill2 {
-        width: 26%;
-        max-width: 850px;
-        top: -17px;
+    .mapimage {
+        height: 460.3px;
+        top: 60px;
+    }
+    img.skill {
+        height: 100%;
+        width: 41%;
+        max-width: 1019px;
+        top: 17px;
         /* padding: 50px 70px 0 70px; */
         position: relative;
+    }
 
+
+
+    img.skill2 {
+        width: 28%;
+        max-width: 850px;
+        top: 13px;
+        /* padding: 50px 70px 0 70px; */
+        position: relative;
     }
     .page-1 {
         /* margin-top: 10px; */
@@ -2180,6 +2638,7 @@ width: 210px;
         left: 9px;
         font-size: 18.3px;
     }
+    
 
     
 }
@@ -2189,11 +2648,154 @@ width: 210px;
 
 @media only screen and (max-width:1299px){
 
+    .carousel-control-next, .carousel-control-prev {
+        position: relative!important;
+        top: -21.3%;
+        bottom: 0;
+        display: -ms-flexbox;
+        display: inline!important;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        opacity: 1!important;
+    }
+
+    
+
+    
+
+    .midflex {
+        /* display: flex; */
+        top: 20px;
+        position: relative;
+        /* justify-content: center; */
+        height: 83.6vh;
+    }
+
+    .midflex2 {
+        /* display: flex; */
+        top: 50px;
+        position: relative;
+        /* justify-content: center; */
+        height: 79.8vh;
+    }
+
+    .rollitflex {
+        top: 70px;
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        flex-flow: row wrap;
+        margin: auto;
+        position: relative;
+        overflow: scroll;
+    }
+    .flex-item2 {
+        width: 240px;
+    }
+    .flex-item2>img {
+        width: 220px;
+        z-index: 10;
+    }
+    img.d-block.w-100 {
+        height: 250px;
+        width: 630px!important;
+    }
+
+    .kokocover {
+    position: relative;
+    top: 130px;
+    height: 720px;
+    left: 0px;
+}
+
+    .mapinfo {
+        position: absolute;
+        right: 22.5%;
+        width: 14.1vw;
+        top: 280px;
+    }
+
+    .mapimage {
+        height: 470.3px;
+        top: 70px;
+    }
+
+    
+    #A_licensed_manpower_agency_in_ {
+        Z-INDEX: 1000;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+        left: 13.6%;
+        top: 335.6px;
+        position: absolute;
+        overflow: visible;
+        line-height: 1;
+        width: 1123px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        color: rgba(255,255,255,1);
+        text-transform: uppercase;
+    }
+
+    .flex-item3>img {
+        width: 220px;
+        z-index: 10;
+    }
+    .imagediv {
+        mix-blend-mode: multiply;
+        background-image: url(A.jpg);
+        /* height: 80vh; */
+        width: 100%;
+        top: -80px;
+        position: relative;
+        background-size: cover;
+        height: 100vh;
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+
+    .page-1 {
+        margin-top: -40px;
+        z-index: 1;
+        position: relative;
+        top: 39px;
+    }
+
+    .followMeBar.b1 {
+        top: 56px;
+    }
+    
+
+    nav {
+        z-index: 100;
+        padding: 23.1px;
+        padding-right: 0;
+        padding-left: 0;
+        height: 137px;
+        background-color: white;
+        position: fixed;
+        top: -60px;
+        position: fixed;
+        width: 100%;
+        /* border-bottom: 100px; */
+    }
+
     
     .form-group {
     margin-bottom: 0px!important;
     }
-
+    .flex-item3 {
+        width: 240px;
+        height: 230px;
+    }
     form> div {
         border-radius: 5px;
         padding:    0px;
@@ -2201,8 +2803,16 @@ width: 210px;
     
 
     form {
-        width: 537.9px;
-        left: 65.9px;
+    top: 80px;
+    width: 677.9px;
+    left: 35.9px;
+    }
+
+    .lg {
+        top: -98px;
+        position: relative;
+        left: 10px;
+        display: inline;
     }
    
     .lefts {
@@ -2225,6 +2835,7 @@ width: 210px;
     }
     .page-10 {
         padding-top: 0;
+        top: -10px;
     }
     html #p10 p {
         font-size: 16.9px!important;
@@ -2253,19 +2864,17 @@ width: 210px;
         right: -61%!important;
     }
     .im {
-        width: 41.2%;
+        width: 34.4%;
     }
-    
 
     .kokoflex {
-        display: grid;
-        grid-template-columns: 75% 25%;
-        width: 80.5%;
-        margin: auto;
-        top: -20px;
-        position: relative;
-    }
-
+    display: grid;
+    grid-template-columns: 75% 25%;
+    width: 80.5%;
+    margin: auto;
+    top: -60px;
+    position: relative;
+}
     #p21 {
 
         position: relative;
@@ -2277,30 +2886,13 @@ width: 210px;
     }
 
     .leftd > p {
-        font-size: 17.1px!important;
+        font-size: 15.7px!important;
     }
     div#Our_partnership_with_KoKoRoZas {
         margin-top: -2.1px;
     }
 
-    #A_licensed_manpower_agency_in_ {
-        Z-INDEX: 1000;
-        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-        left: 13.6%;
-        top: 448.4px;
-        position: absolute;
-        overflow: visible;
-        width: 1123px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 31px;
-        color: rgba(255,255,255,1);
-        text-transform: uppercase;
-    }
-
+  
     .infocommune {
         display: flex;
         top: 11.2px;
@@ -2378,23 +2970,7 @@ width: 210px;
         top: 20px;
     }
     
-    #A_licensed_manpower_agency_in_ {
-        Z-INDEX: 1000;
-        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-        left: 13.6%;
-        top: 468.4px;
-        position: absolute;
-        overflow: visible;
-        width: 1123px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 31px;
-        color: rgba(255,255,255,1);
-        text-transform: uppercase;
-    }
+   
     .p33 {
         margin-top: 70px;
     }
@@ -2429,15 +3005,16 @@ width: 210px;
 
 
     .mapimage {
-   
-        height: 431px;
+        height: 381px;
+        top: 60px;
+        position: relative;
     }
 
     .mapinfo {
         position: absolute;
-        right: 12.5%;
-        width: 15vw;
-        top: 60px;
+        right: 33.5%;
+        width: 12.8vw;
+        top: 254.1px;
     }
 
     
@@ -2854,7 +3431,7 @@ margin:auto!important;
         flex-flow: row wrap;
         margin: auto;
         position: relative;
-        height: 3589px;
+      
         overflow: scroll;
     }
     div#section7 {
@@ -2907,7 +3484,8 @@ margin:auto!important;
         flex-flow: row wrap;
         margin: auto;
         position: relative;
-        height: 2269px;
+  
+
         overflow: scroll;
     }
 
@@ -3226,10 +3804,57 @@ margin:auto!important;
     }
 
     @media only screen and  (min-width:2400px){ 
+        .cardholder2 {
+            margin-top: -18.5px;
+        }
+        .page-1 {
+            top: -100px;
+            position: relative;
+            position: relative;
+            top: 20px;
+            padding-top: 3.8%;
+        }
+        
+
+        .flex-item3>img {
+            width: 399px;
+            z-index: 10;
+        }
+
+        .rollitflex2 {
+            top: 129px;
+            display: flex;
+            width: 85.5%;
+            left: 40px;
+            align-content: top;
+            justify-content: center;
+            flex-flow: row wrap;
+            margin: auto;
+            position: relative;
+            /* height: 1475px; */
+            overflow: scroll;
+            overflow: -moz-scrollbars-none;
+            -ms-overflow-style: none;
+        }
+
+        .flex-item3 {
+            width: 490px;
+            height: 380px;
+        }
+
+        .conflexitem>p {
+            font-size: 30.8px;
+            text-align: justify;
+            left: 2.4%;
+            top: 70px;
+            position: relative;
+        }
+
+        
     
     
     
-        .cardholder2{margin-top: 41.5px;}
+       
     
     
 
@@ -3248,8 +3873,13 @@ margin:auto!important;
     @media only screen and (min-width:1000px){
 
         .followMeBar.b3 {
-            top: 80px;
+            top: 50px;
         }
+
+        .followMeBar.b4 {
+            top: 50px;
+        }
+
 
         
     }
@@ -3296,7 +3926,7 @@ margin:auto!important;
         html #p10 p {
             font-size: 22.5px!important;
             left: 0.9%;
-            top: 120px;
+            top: 100px;
         }
 
         .followMeBar.b0 {
@@ -3306,13 +3936,58 @@ margin:auto!important;
             top: 66px;
         }
         .followMeBar.b2 {
-            top: 97.3px;
+            top: 57.3px;
         }
     }
     @media only screen and (min-width:1300px){}
 
     
     @media only screen and (min-width:1500px){
+
+        .mapinfo {
+            position: absolute;
+            right: 21.5%;
+            width: 15vw;
+            top: 327.4px;
+        }
+
+        #A_licensed_manpower_agency_in_ {
+            Z-INDEX: 1000;
+            filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+            left: 13.5%;
+            top: 459px;
+            position: absolute;
+            overflow: visible;
+            width: 1123px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: "Roboto Condensed", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 30px;
+            font-size: 33px;
+            color: rgba(255,255,255,1);
+            text-transform: uppercase;
+        }
+        .carousel-control-next {
+            right: -60.9%!important;
+        }
+
+        .carousel-control-next, .carousel-control-prev {
+            position: relative!important;
+            top: -24.5%;
+            bottom: 0;
+            display: -ms-flexbox;
+            display: inline!important;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            width: 15%;
+            color: #fff;
+            text-align: center;
+            opacity: 1!important;
+        }
 
         .followMeBar.b21 {
             top: 120px;
@@ -3354,9 +4029,223 @@ margin:auto!important;
         .followMeBar.b2 {
             top: 97.3px;
         }
+
+
     }
 
+
+    @media only screen and (min-width:1600px){
+
+        .mapinfo {
+            position: absolute;
+            right: 12%;
+            width: 18.5vw;
+            top: 437.4px;
+        }
+        .carousel-control-next {
+            right: -60.2%!important;
+        }
+
+        .carousel-control-next, .carousel-control-prev {
+            position: relative!important;
+            top: -23.5%;
+            bottom: 0;
+            display: -ms-flexbox;
+            display: inline!important;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            width: 15%;
+            color: #fff;
+            text-align: center;
+            opacity: 1!important;
+        }
+
+
+        #A_licensed_manpower_agency_in_ {
+            Z-INDEX: 1000;
+            filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+            left: 13.5%;
+            top: 699px;
+            position: absolute;
+            overflow: visible;
+            width: 1123px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: "Roboto Condensed", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 30px;
+            font-size: 38.9px;
+            color: rgba(255,255,255,1);
+            text-transform: uppercase;
+        }
+
+    }
+
+    @media only screen and (min-width:1999px){
+        #A_licensed_manpower_agency_in_ {
+            filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+            left: 315px;
+            top: 767px;
+            position: absolute;
+            overflow: visible;
+            width: 1112px;
+            line-height: 50px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: bold;
+            font-size: 49.1px;
+            color: rgba(255,255,255,1);
+            text-transform: uppercase;
+            z-index: 100;
+        }
+
+    img.skill {
+        width: 100%;
+        height: 100%;
+        max-width: 1160px;
+        top: 31px;
+        /* padding: 50px 70px 0 70px; */
+        position: relative;
+    }
+
+    img.skill2 {
+        width: 100%;
+        max-width: 687px;
+        /* transform: scale(1.5); */
+        top: 56px;
+        /* padding: 50px 70px 0 70px; */
+        position: relative;
+    }
+
+    .flex-item {
+        /* background: tomato; */
+        /* padding: 16px; */
+        left: 15px;
+        height: 100%;
+        /* top: -16px; */
+        position: relative;
+        width: 316.2px;
+        height: 307.5px;
+        /* margin-top: 14px; */
+        line-height: 150px;
+        color: white;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 98.5%;
+        padding: 0;
+        margin: 0;
+        padding-top: 1%;
+        list-style: none;
+    }
+
+    .flex-item>svg {
+        width: 308.6px;
+    }   
+
+    img.skill2 {
+        width: 100%;
+        max-width: 687px;
+        /* transform: scale(1.5); */
+        top: -4px;
+        /* padding: 50px 70px 0 70px; */
+        position: relative;
+    }
+
+    img.skill {
+        width: 100%;
+        height: 100%;
+        max-width: 1160px;
+        top: -9px;
+        /* padding: 50px 70px 0 70px; */
+        position: relative;
+    }
+
+}
+
+@media only screen and (min-width:2000px) and (max-width:2200px){
+
+    form {
+        top: 52px;
+        width: 1033px;
+    }
+
+    
+    .carousel-control-next, .carousel-control-prev {
+        position: relative!important;
+        top: -26.4%;
+        bottom: 0;
+        display: -ms-flexbox;
+        display: inline!important;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        opacity: 1!important;
+    }
+
+        .imge2 {
+            /* margin: auto; */
+            width: 70%;
+            align-items: center;
+            /* display: flex; */
+            position: relative;
+            left: 50%;
+            margin-left: -35.1%;
+            /* justify-content: center; */
+            align-content: center;
+            /* flex-direction: column; */
+            height: 80.9vh;
+        }
+        form {
+            top: 20px;
+            width: 1033px;
+        }
+
+        .imge3 {
+            /* margin: auto; */
+            width: 70%;
+            align-items: center;
+            /* display: flex; */
+            position: relative;
+            left: 50%;
+            margin-left: -35.1%;
+            /* justify-content: center; */
+            align-content: center;
+            /* flex-direction: column; */
+            height: 77.6vh;
+        }
+    
+        
+    
+    
+        
+    }
+
+
+
+        
+
     @media only screen and (max-width:1800px) and (min-width:2000px){
+
+        
+
+
+
+        
 
     textarea#textarea_1 {
         height: 150px;
@@ -3389,6 +4278,34 @@ margin:auto!important;
 
     @media only screen and (min-width:1800px){
 
+
+        .flex-item3>img {
+            width: 360px;
+            z-index: 10;
+        }
+
+       
+
+        .followMeBar.b33 {
+            top: 112px;
+        }
+
+        .followMeBar.b2 {
+            top: 166px;
+        }
+
+        .poltu {
+            top: 120px;
+        }
+
+        .kokocover {
+            position: relative;
+            top: 70px;
+            height: 720px;
+            left: 30px;
+            overflow: hidden;
+        }
+
         #p21>p {
             top: 130px;
             left: 9px;
@@ -3400,11 +4317,10 @@ margin:auto!important;
         .followMeBar.b21 {
             top: 120px;
         }
-
         .who {
             width: 73%;
             margin: auto;
-            height: 650px;
+            height: 550px;
             left: -7px;
             top: 100px;
             position: relative;
@@ -3422,15 +4338,20 @@ margin:auto!important;
             top: 110px;
         }
 
-    
-        .mapimage{margin: 0px 72px 0 0px;}
+        .mapimage {
+            transform: scale(0.8);
+            transform-origin: left;
+            top: 68.8px;
+            margin: 0px 72px 0 0px;
+        }
+        
         .followMeBar.b2 {
             top: 146px;
         }
     
         .page-2 {
             position: relative;
-            overflow: hidden;
+ 
             top: 139px;
             width: 100%;
         }
@@ -3446,9 +4367,71 @@ margin:auto!important;
             top: 70px;
             padding-top: 3.8%;
         }
+
+
+        .mapinfo svg {
+            width: 75%;
+            left: -160px;
+            position: relative;
+        }
     }
   
     @media only screen and (min-width:1400px) and (max-width:1498px){
+
+        .lefts img {
+            position: relative;
+            left: 10px!important;
+            width: 145.1%;
+        }
+
+        form {
+            width: 860px;
+            left: -14.1px;
+        }
+
+        .lg {
+            top: -200px;
+            position: relative;
+            left: 10px;
+            display: inline;
+        }
+        .col-xsm-12>img {
+            left: -23%;
+            position: relative;
+            top: 44.6%;
+            margin-top: -20%;
+        }
+
+        .conflexitem>p {
+            font-size: 18.9px;
+            text-align: justify;
+            left: 2.4%;
+            position: relative;
+        }
+
+        .lg {
+            top: -250px;
+            position: relative;
+            left: 10px;
+            display: inline;
+        }
+
+        .followMeBar.b110 {
+            top: 70.9px;
+        }
+
+        .flex-item3>img {
+            width: 260px;
+            z-index: 10;
+        }
+        .flex-item2 {
+            width: 270px;
+            height: 230px;
+        }
+        .flex-item3 {
+            width: 270px;
+            height: 250px;
+        }
 
         #A_licensed_manpower_agency_in_ {
             Z-INDEX: 1000;
@@ -3482,13 +4465,219 @@ margin:auto!important;
 
     }
 
+    
+
+    @media only screen and (min-width:2000px){
+
+        .followMeBar.b4 {
+            top: 110px;
+        }
+
+        #cont4 {
+            height: 1960px;
+        }
+
+        .flex-item2 {
+            width: 400px;
+            height: 380px;
+        }
+
+        .flex-item2>img {
+            width: 351px;
+            z-index: 10;
+        }
+
+        .rollitflex {
+            top: 190px;
+            display: flex;
+            left: 30px;
+            width: 80%;
+            justify-content: center;
+            flex-flow: row wrap;
+            margin: auto;
+            position: relative;
+            overflow: scroll;
+            overflow: -moz-scrollbars-none;
+            -ms-overflow-style: none;
+        }
+
+        .mapimage {
+            transform: scale(1);
+            transform-origin: left;
+            top: 68.8px;
+            margin: 0px 72px 0 0px;
+        }
+
+        .rollitflex2 {
+            top: 209px;
+            left: 40px;
+            display: flex;
+            width: 80%;
+            align-content: top;
+            justify-content: center;
+            flex-flow: row wrap;
+            margin: auto;
+            position: relative;
+            /* height: 1475px; */
+            overflow: scroll;
+            overflow: -moz-scrollbars-none;
+            -ms-overflow-style: none;
+        }
+
+        .flex-item3 {
+            width: 406px;
+            height: 360px;
+        }
+
+     
+
+        .flex-item3>img {
+            width: 351px;
+            z-index: 10;
+        }
+        .kokoflex {
+            display: grid;
+            grid-template-columns: 75% 25%;
+            width: 81.3%;
+            margin: auto;
+            left: -12.7px;
+            top: 0px;
+            height: 760px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        img.skill {
+            width: 100%;
+            height: 100%;
+            max-width: 930px;
+            top: -39px;
+            /* padding: 50px 70px 0 70px; */
+            position: relative;
+        }
+        .flex-item>svg {
+            width: 288.6px;
+        }
+
+        .container-fluid.page000 {
+            top: 50px;
+        }
+
+        .followMeBar.b10 {
+            top: 106px;
+        }
+
+       
+
+            .w-100 {
+                /* width: 100%!important; */
+                width: 1020px;
+            }
+
+    }
+
     @media only screen and (min-width:2400px){
 
-        .lg {
-            top: 90px;
-            position: relative;
-            display: inline;
+        .mapimage {
+            transform: scale(1);
+            transform-origin: left;
+            top: 148.8px;
+            margin: 0px 72px 0 0px;
+            height: 741.3px;
         }
+        .flex-item {
+            width: 390px;
+        }
+
+        img.skill {
+            width: 100%;
+            height: 100%;
+            max-width: 930px;
+            top: 1px;
+            /* padding: 50px 70px 0 70px; */
+            position: relative;
+        }
+
+        .iconkoko {
+            WIDTH: 340PX;
+        }
+
+        .flex-item3 {
+            width: 506px;
+            height: 360px;
+        }
+        .flex-item3>img {
+            width: 391px;
+            z-index: 10;
+        }
+        .rollitflex2 {
+            top: 149px;
+            left: 40px;
+            display: flex;
+            width: 80%;
+            align-content: top;
+            justify-content: center;
+            flex-flow: row wrap;
+            margin: auto;
+            position: relative;
+            /* height: 1475px; */
+            overflow: scroll;
+            overflow: -moz-scrollbars-none;
+            -ms-overflow-style: none;
+        }
+        .mapinfo {
+            position: absolute;
+            right: 20.5%;
+            width: 17.5vw;
+            top: 407.4px;
+        }
+        .mapimage {
+            transform: scale(1);
+            transform-origin: left;
+            top: 68.8px;
+            margin: 0px 72px 0 0px;
+            height: 791.3px;
+        }
+        .w-100 {
+            height: 500px;
+            width: 1280px!important;
+            width: 1220px;
+        }
+        .kokoflex {
+            display: grid;
+            grid-template-columns: 75% 25%;
+            width: 81.3%;
+            margin: auto;
+            left: -23.7px;
+            top: 0px;
+            height: 760px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .w-100 {
+            /* width: 100%!important; */
+            width: 1220px;
+        }
+
+        .imagediv {
+            mix-blend-mode: multiply;
+            background-image: url(A.jpg);
+            /* height: 80vh; */
+            width: 100%;
+            top: 70px;
+            position: relative;
+            background-size: cover;
+            height: 100vh;
+            background-position: right center;
+            background-repeat: no-repeat;
+        }
+
+        .lg {
+    top: -120px;
+    position: relative;
+    display: inline;
+}
 
         #p21>p {
             top: 141.2px;
@@ -3515,13 +4704,7 @@ margin:auto!important;
             margin-top: -20%;
         }
 
-        .conflexitem>p {
-            font-size: 36px;
-            text-align: justify;
-            left: 2.4%;
-            top: 70px;
-            position: relative;
-        }
+       
 
         .container-fluid.page000 {
             top: 80px;
@@ -3547,7 +4730,96 @@ margin:auto!important;
             top: 122px;
         }
     }
+
+
+
     
+@media only screen and  (min-width:1500px) and (max-width:1600px){
+
+    .col-xsm-12>img {
+        left: -23%;
+        width: 80%;
+        position: relative;
+        top: 50.7%;
+        margin-top: -20%;
+    }
+
+    #A_licensed_manpower_agency_in_ {
+        Z-INDEX: 1000;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+        left: 13.5%;
+        top: 469px;
+        position: absolute;
+        overflow: visible;
+        width: 1123px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: "Roboto Condensed", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 30px;
+        font-size: 33px;
+        color: rgba(255,255,255,1);
+        text-transform: uppercase;
+    }
+    .conflexitem>p {
+        font-size: 17.9px;
+        text-align: justify;
+        left: 2.4%;
+        position: relative;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        position: relative!important;
+        top: -28%;
+        bottom: 0;
+        display: -ms-flexbox;
+        display: inline!important;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        opacity: 1!important;
+    }
+    
+
+    #p3 p {
+        font-size: 31px;
+        top: 80px;
+    }
+    .mapinfo {
+        position: absolute;
+        right: 27.4%;
+        width: 13.9vw;
+        top: 312.4px;
+    }
+
+    .mapimage {
+        height: 490.3px;
+        top: 100px;
+    }
+
+    img.skill2 {
+        width: 100%;
+        max-width: 472px;
+        top: -32px;
+        /* padding: 50px 70px 0 70px; */
+        position: relative;
+    }
+    img.skill {
+        height: 100%;
+        width: 100%;
+        max-width: 650px;
+        top: -20px;
+        /* padding: 50px 70px 0 70px; */
+        position: relative;
+    }
+}
+
+
 
 
 
